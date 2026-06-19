@@ -30,7 +30,7 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `https://notehub.com/notes/filter/${slug.join('/')}`,
+      url: `https://08-zustand-kappa-sepia.vercel.app/notes/filter/${slug.join('/')}`,
       images: [
         {
           url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",
